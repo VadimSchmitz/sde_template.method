@@ -3,8 +3,8 @@ package com.hz;
 public abstract class Card {
     protected Printer printer;
 
-    public Card(Printer printer) {
-        this.printer = printer;
+    public Card() {
+        this.printer = new Console();
     }
 
         abstract void printHeader ();
@@ -18,6 +18,4 @@ public abstract class Card {
             printImage();
             printFooter();
         }
-
-
 }

@@ -26,9 +26,13 @@ public class Main {
 
 //        PostCard card = new PostCard(printer,  true);
 
-            PostCard card = new PostCard(printer);
-            UselessCard uselessCard = new UselessCard(printer);
+            PostCard card = new PostCard();
+            HighSchoolGraduationCard highSchoolGraduationCard = new HighSchoolGraduationCard();
+            UselessCard uselessCard = new UselessCard();
             card.print();
+            uselessCard.print();
+            highSchoolGraduationCard.print();
+
 
     }
 }

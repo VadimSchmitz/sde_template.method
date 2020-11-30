@@ -2,8 +2,8 @@ package com.hz;
 
 public class HighSchoolGraduationCard extends Card {
 
-    public HighSchoolGraduationCard(Printer printer) {
-        super(printer);
+    public HighSchoolGraduationCard() {
+        super();
     }
 
     @Override

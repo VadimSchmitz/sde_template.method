@@ -2,9 +2,10 @@ package com.hz;
 
 public class PostCard extends Card {
 
-    public PostCard(Printer printer) {
-        super(printer);
+    public PostCard( ) {
+        super();
     }
+
 
     @Override
     void printHeader() {
