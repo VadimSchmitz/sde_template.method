@@ -8,8 +8,10 @@ public class Main {
         // Lets print some cards
         Printer printer = new Console();
 
+
         // INSTRUCTIONS, READ CAREFULLY !!!!!!!!!!!!!!!!!!!!!!!!!!
         // For a normal postcard use: true, false
+
         // For a graduation card use: false, true
 
 
@@ -21,8 +23,12 @@ public class Main {
 
         // IF WE HAVE TO ADD AN OTHER TYPE OF CARD...
         // ...I QUIT THIS JOB.
-        PostCard card = new PostCard(printer, false, true);
 
-        card.print();
+//        PostCard card = new PostCard(printer,  true);
+
+            PostCard card = new PostCard(printer);
+            UselessCard uselessCard = new UselessCard(printer);
+            card.print();
+
     }
 }
